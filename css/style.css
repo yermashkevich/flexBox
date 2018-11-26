@@ -11,3 +11,47 @@ ul li {
 a {
 	text-decoration: none;
 }
+
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.header {
+	background-image: url("../img/bg_header.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	min-height: 590px; 
+	background-size: cover;
+}
+
+.top-line {
+	background-color: #ffffff;
+	opacity: 0.9;
+}
+
+.top-line__flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 90px;
+}
+
+.menu__link {
+	color: #454545;
+	margin-left: 35px;
+	font-size: 17px;
+}
+
+.menu__link:hover {
+	color: #131313;
+}
+
+.menu__link--login {
+	
+}
