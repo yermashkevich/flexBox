@@ -49,9 +49,92 @@ a {
 }
 
 .menu__link:hover {
-	color: #131313;
+	color: #232323;
 }
 
 .menu__link--login {
-	
+	padding: 5px 10px 5px 30px;
+	background-color: #de6d6e;
+	background-image: url("../img/login_icon.png");
+	background-repeat: no-repeat;
+	background-position: 11px 7px;
+	color: #ffffff;
+	border-radius: 7%;
 }
+
+.menu__link--login:hover {
+	background-color: #de5d6e;
+	color: #ffffff;
+}
+
+.header_center {
+	min-height: 500px;
+	box-sizing: border-box;
+	padding-bottom: 88px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: flex-end;
+	position: relative;
+}
+
+.header_title {
+	margin: auto;
+}
+
+.circles .circle {
+	border-radius: 50%;
+	background-color: #ffffff;
+	opacity: 0.59;
+	position: absolute;
+}
+
+.circles .circle1 {
+	height: 70px;
+	width: 70px;
+	top: 163px;
+  left: 535px;
+}
+
+.circles .circle2 {
+	height: 92px;
+	width: 92px;
+	top: 116px;
+  left: 493px;
+}
+
+.circles .circle3 {
+	height: 120px;
+	width: 120px;
+	top: 150px;
+  left: 445px;
+}
+
+.header_center h1 {
+	color: #ffffff;
+	font-size: 70px;
+	line-height: 70px;
+	margin: 0;
+	text-transform: uppercase;
+	text-shadow: 0 0 13px rgba(0, 0, 0, 0.22); 
+}
+
+.header_center h2 {
+	color: #ffffff;
+	font-size: 25px;
+	line-height: 25px;
+	margin: 0;
+	text-shadow: 0 0 13px rgba(0, 0, 0, 0.22); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
