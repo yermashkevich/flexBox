@@ -79,7 +79,7 @@ a {
 }
 
 .header_title {
-	margin: auto;
+	text-align: center;
 }
 
 .circles .circle {
@@ -119,7 +119,7 @@ a {
 	text-shadow: 0 0 13px rgba(0, 0, 0, 0.22); 
 }
 
-.header_center h2 {
+.header_center h3 {
 	color: #ffffff;
 	font-size: 25px;
 	line-height: 25px;
@@ -127,13 +127,116 @@ a {
 	text-shadow: 0 0 13px rgba(0, 0, 0, 0.22); 
 }
 
+.services {
+	background-color: #ffffff;
+}
 
+.description {
+	color: #404040;
+	text-align: center;
+	margin: 62px 95px;
+}
 
+.descripton_title {
+	font-size: 35px;
+	line-height: 35px; 
+	margin-bottom: 25px;
+}
 
+.descripton_text {
+	font-size: 17px;
+	line-height: 17px; 
+}
 
+.service_round {
+	width: 179px;
+	height: 179px;
+	border-radius: 50%;
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+}
 
+.services_flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
 
+.service {
+	display: block;
+	padding-top: 130px;
+	color: #ffffff;
+	background-image: url("../img/steps_sprite.png");
+	background-repeat: no-repeat;
+}
 
+.service1 {
+	background-position: 46px 37px;
+}
+
+.service2 {
+	background-position: -209px 37px;
+}
+
+.service3 {
+	background-position: -457px 37px;
+}
+
+.service4 {
+	background-position: -715px 37px;
+}
+
+.service_round1 {
+	background-color: #4eb9f4;
+}
+
+.service_round2 {
+	background-color: #6fc125;
+}
+
+.service_round3 {
+	background-color: #ff5649;
+}
+
+.service_round4 {
+	background-color: #e48f23;
+}
+
+.service-text {
+	position: absolute;
+	top: 0px;
+  padding: 23px;
+  color: #ffffff;
+  display: none;
+}
+
+.service_round1:hover .service-text1,
+.service_round2:hover .service-text2,
+.service_round3:hover .service-text3,
+.service_round4:hover .service-text4 {
+	display: block;
+	cursor: pointer;
+}
+
+.service_round1:hover .service1,
+.service_round2:hover .service2,
+.service_round3:hover .service3,
+.service_round4:hover .service4 {
+	opacity: 0.26;
+}
+
+.hr {
+	width: 100%;
+	height: 2px;
+	background-color: #000000;
+	opacity: 0.3;
+	margin: 50px 0;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.89); 
+}
 
 
 
