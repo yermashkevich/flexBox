@@ -155,6 +155,7 @@ a {
 	vertical-align: middle;
 	text-align: center;
 	position: relative;
+	margin: 0 30px;
 }
 
 .services_flex {
@@ -163,7 +164,7 @@ a {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .service {
@@ -238,6 +239,60 @@ a {
 	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.89); 
 }
 
+.articles {
+	margin: 45px 0 35px 65px;
+}
 
+.article {
+	padding: 0 0 77px 225px;
+	background-image: url("../img/lorem.jpg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	line-height: 1.2;
+}
 
+.article-title {
+	color: #404040;
+	font-size: 27px;
+	margin-bottom: 15px;
+}
 
+.article-text {
+	color: #8b8b8b;
+	font-size: 15px;
+}
+
+.footer-flex {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 60px;
+	align-items: center;
+	min-height: 260px;
+}
+
+.footer {
+	background-color: #252724;
+}
+
+.sub-menu_point,
+.sub-menu_title {
+	display: block;
+	color: #8b8b8b;
+}
+
+.social {
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	background-image: url("../img/social_icons.png");
+	background-repeat: no-repeat;
+}
+
+.sub-menu_title {
+	margin-bottom: 15px;
+	font-size: 21px;
+}
+
+.sub-menu_point {
+	font-size: 15px;
+}
