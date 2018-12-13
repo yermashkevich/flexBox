@@ -186,18 +186,9 @@ a {
   color: #ffffff;
   display: none;
 }
-.servicesFlex__round-blue:hover .servicesFlex__openedText-tickets,
-.servicesFlex__round-green:hover .servicesFlex__openedText-camera,
-.servicesFlex__round-pink:hover .servicesFlex__openedText-beer,
-.servicesFlex__round-orange:hover .servicesFlex__openedText-devices {
-  display: block;
-  cursor: pointer;
-}
-.servicesFlex__round-blue:hover .servicesFlex__link-tickets,
-.servicesFlex__round-green:hover .servicesFlex__link-camera,
-.servicesFlex__round-pink:hover .servicesFlex__link-beer,
-.servicesFlex__round-orange:hover .servicesFlex__link-devices {
+.circleOpacity {
   opacity: 0.26;
+  cursor: pointer;
 }
 .hr {
   width: 100%;
